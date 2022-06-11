@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="YouPro.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js" integrity="sha512-n/4gHW3atM3QqRcbCn6ewmpxcLAHGaDjpEBu4xZd47N0W2oQ+6q7oc3PXstrJYXcbNU1OHdQ1T7pAP+gi5Yu8g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>YouPro</title>
+</head>
+<body>
+    <header>
+        <h1 class="title">YouPro</h1>
+    <ul><li><a href="youtube.html">Home</a></li></ul>
+    <ul><li><a href="tutorial.html">Tutorial</a></li></ul>
+    </header>
+    <section>
+        <h1>YouPro Download</h1>
+        <div class="link-container">
+            <label for="">Video Link:
+            </label>
+            <input type="text" class="link" name="link" placeholder="Cole o Link Do Video Aqui" required>
+        </div>
+        <div class="format-container">
+            <label for="">formato</label>
+            <select class="format" required>
+                <option selected disabled>Selecione O Formato Do Video</option>
+                <option value="mp3">mp3</option>
+                <option value="mp4a">144</option>
+                <option value="300">300</option>
+                <option value="480">480</option>
+                <option value="720">720</option>
+                <option value="1080">1080</option>
+            </select>
+            <div class="button-container">
+                <button class="btn" type="submit">Baixar</button>
+            </div>
+        </div>
+    </section>
+    <script src="YouPro.js"></script>
+    
+</body>
+</html>
